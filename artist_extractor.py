@@ -1,8 +1,8 @@
 """
 Gets a deduplicated list of all artists in one or more playlists. 
 
-$env:SPOTIPY_CLIENT_ID='b261bcccc1ab482bbc9246ad9888fb17'
-$env:SPOTIPY_CLIENT_SECRET='2509d9af90f44b889730dc2c74a6b86f' 
+$env:SPOTIPY_CLIENT_ID='<client id>'
+$env:SPOTIPY_CLIENT_SECRET='<client secret>' 
 python track_extractor.py <playlist url> <playlist url> ...
 """
 import csv
